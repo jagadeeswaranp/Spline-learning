@@ -1,0 +1,45 @@
+.spline-container{
+  height: 100vh;
+  background-color: #feffff;
+  padding: 0px 200px;
+  display: grid;
+  grid-template-rows: 8% 77% 15%;
+.nav{
+  ul{
+    display: grid;
+    grid-template-columns: 70% 8% 8% 5%;
+    li{
+      list-style: none;
+      font-weight: 500;
+      &:first-child{
+        font-size: 1.3rem;
+        letter-spacing: 1px;
+        color: #0F0095;
+        font-weight: 700;
+      }
+    }
+  }
+}
+.footer{
+  padding: 0px 450px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 0.9rem;
+
+  button{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border:none;
+    color: white;
+    background-color: #2a218a;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    &:hover{
+      background-color: #190e7e;
+    }
+  }
+
+}
+}
